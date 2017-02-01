@@ -71,12 +71,40 @@ public class Pattern {
     public static void main(String as[])
     {
         System.out.println("pattern 1");
-        new Pattern().pattern3();
-        System.out.println("pattern 2");
         new Pattern().pattern1();
-        System.out.println("pattern 3");
+        System.out.println("pattern 2");
         new Pattern().pattern2();
+        System.out.println("pattern 3");
+        new Pattern().pattern3();
         System.out.println("pattern 4");
         new Pattern().pattern4();
     }
 }
+/*
+OUTPUT:
+
+pattern 1
+*****
+****
+***
+**
+*
+pattern 2
+*
+**
+***
+****
+*****
+pattern 3
+   *
+  ***
+ *****
+*******
+pattern 4
+  *
+ ***
+*****
+ ***
+  *
+  
+*/
