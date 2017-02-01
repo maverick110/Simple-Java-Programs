@@ -4,18 +4,17 @@ public class MainOverload {
   public static final void main(int a)
   {
       System.out.println("in Integer main" +a);
-      main(2.3f);
   }
   public static final void main(float x)
   {
       System.out.println("in Float main"+x);
-      main(2);
+      main(10);
   }
   public static final void main(float x,int h)
   {
-      System.out.print(x+"overloaded main"+h);
+      System.out.print(x+" overloaded main "+h);
   }
-  public static final void main(String rofl[])
+  public static final void main(String rofl[]) //When i run this, always this main method is called..
   {
       main(2);
       main(7.6f);
