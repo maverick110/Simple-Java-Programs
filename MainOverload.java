@@ -25,3 +25,11 @@ public class MainOverload {
 
 
 }
+/*
+OUTPUT:
+
+in Integer main2
+in Float main7.6
+in Integer main10
+3.3 overloaded main 7
+*/
